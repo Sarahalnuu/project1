@@ -9,7 +9,7 @@ background-color: white;
     list-style: none;
     gap: 20px;
     padding-right: 30px;
-    width: 200px;
+    width: 400px;
     justify-content: space-evenly;
 }
 .nav-links li a{
@@ -18,20 +18,53 @@ color:#0c1753;
 }
 
 nav img{
-    width: 40px;
+    width: 150px;
 }
 header { 
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin-bottom: 10px;
 background-color: #9375ff;
 color: white;
 font-family: Quicksand;
 text-align: left;
 }
 header img{
-    width: 100px;
+    width: 600px;
 }
 .pp{
     text-align: center;
     color: #00a69c;
     font-family: Quicksand;
     font-size: 40px;
+}
+header div button{
+    background-color: yellow;
+    padding: 3% 20%;
+}
+.container{
+    display: flex;
+    background-color: rgb(240, 235, 240);
+}
+.card{
+    background-color: white;
+    width: 190x;
+    height: 250px;
+    margin: 10px;
+}
+.card img{
+    width: 40%;
+}
+.part1{
+    text-align: right;
+    color: #00a69c;
+}
+.part2{
+    text-align: right;
+    color:#0c1753;
+}
+.part3{
+    text-align: right;
+    color: #0c1753;
 }

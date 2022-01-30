@@ -67,47 +67,47 @@ header div button{
     border-radius: 50%;
 }
 .part1{
-    text-align: right;
+    text-align: left;
     color: #00a69c;
     font-size: 30px;
 }
 .part2{
-    text-align: right;
+    text-align: left;
     color:#0c1753;
     font-size: 15px;
 }
 .part3{
-    text-align: right;
+    text-align: left;
     color: #0c1753;
     font-size: 15px;
 }
 .cont1{
-    text-align: left;
+    text-align: right;
     color: #00a69c;
     font-size: 30px;
 }
 .cont2{
-    text-align: left;
+    text-align: right;
     color: #0c1753;
     font-size: 15px;
 }
 .cont3{
-    text-align: left;
+    text-align: right;
     color: #0c1753;
     font-size: 15px;
 }
 .dell1{
-    text-align: right;
+    text-align: left;
     color: #00a69c;
     font-size: 30px;
 }
 .dell2{
-    text-align: right;
+    text-align: left;
     color:#0c1753;
     font-size: 15px;
 }
 .dell3{
-    text-align: right;
+    text-align: left;
     color:#0c1753;
     font-size: 15px;
 }
@@ -133,3 +133,19 @@ font-family: Quicksand;
 text-align: right;
 font-size: 30px;
 }
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 240, 240);
+    color: #0c1753;
+    padding: 20px;
+    flex-warp: warp;   
+}
+footer ul{
+    list-style: none;
+}
+
+@media only screen and (max-width: 600px) {
+    #pp {
+        flex-direction: column-reverse
+    }
